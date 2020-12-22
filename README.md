@@ -1,2 +1,48 @@
-# Drakon-
+# Drakon
 Examples of python code 
+
+## Drakon file it is a tables of SQLite DB.
+
+Look to SQLite Drakon db:
+
+```sh
+sqlite3 first6.drn
+```
+
+List of table
+
+```sh
+.tables
+```
+
+Show table item:
+
+```sql
+select * from items;
+```
+
+Examples of different select:
+
+```sql
+select text,x,y from items;
+
+select a,b,color from items;
+```
+
+Show any SQL code for Drakon db (INCLUDE, CREATE):
+
+```sh
+.dump
+```
+
+![SQLite dump](http://homedevice.pro/wp-content/uploads/2020/12/SQLite.png)
+
+CREATE TABLE - создать таблицу
+
+INSERT INTO - вставить строчки в таблицу
+
+Exit from SQLite DB:
+
+```sh
+.exit
+```
