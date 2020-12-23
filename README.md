@@ -5,37 +5,44 @@ Examples of python code
 
 Look to SQLite Drakon db:
 
-sh'''
+```sh
 sqlite3 first6.drn
-'''
+```
 
 List of table
-sh'''
+
+```sh
 .tables
-'''
+```
 
 Show table item:
-sh'''
+
+```sql
 select * from items;
-'''
+```
 
 Examples of different select:
-sh'''
+
+```sql
 select text,x,y from items;
 
 select a,b,color from items;
-'''
+```
 
 Show any SQL code for Drakon db (INCLUDE, CREATE):
-sh'''
+
+```sh
 .dump
-'''
+```
+
+![SQLite dump](http://homedevice.pro/wp-content/uploads/2020/12/SQLite.png)
 
 CREATE TABLE - создать таблицу
 
 INSERT INTO - вставить строчки в таблицу
 
 Exit from SQLite DB:
-sh'''
+
+```sh
 .exit
-'''
+```
