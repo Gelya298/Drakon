@@ -46,9 +46,12 @@ def fibonacci(n):
 
 def foreach_demo():
         #item 178
-    print("iteration demo")
+    print("enter number of elemnts:")
     #item 169
-    sequence = fibonacci(15)
+    nnn = sys.stdin.readlines()
+    nnn1 = nnn[0]
+    nnn_int = int(nnn1)
+    sequence = fibonacci(nnn_int)
     #item 170
     print_list_arrow(sequence)
     print_list_for(sequence)
