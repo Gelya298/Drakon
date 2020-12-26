@@ -51,6 +51,7 @@ def foreach_demo():
     nnn = sys.stdin.readlines()
     nnn1 = nnn[0]
     nnn_int = int(nnn1)
+    print('elements {0:2d}'.format(nnn_int))
     sequence = fibonacci(nnn_int)
     #item 170
     print_list_arrow(sequence)
